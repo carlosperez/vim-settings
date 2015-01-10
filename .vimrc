@@ -57,3 +57,7 @@ set fileformats+=dos
 " Cycle through buffers
 nnoremap <C-n> :bnext<CR>
 nnoremap <C-p> :bprevious<CR>
+
+" Airline config
+set noshowmode "stop showing default mode indicator
+let g:airline_powerline_fonts = 1 "fonts for powerline

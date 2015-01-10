@@ -22,5 +22,6 @@ With Pathogen its easy to add Vim plugins. Just go to the `.vim/bundle` folder a
 ### Notes on Vim for Designers
 Why do this? Because you get mad respect from devs and you drive other designers mad. Good enough for me!
 
+Airline uses some fonts to work well - get them here: https://github.com/supermarin/powerline-fonts
 
 Nods to @CSilivestru and @brentlintner for the help. 
