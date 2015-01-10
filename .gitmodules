@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule ".vim/bundle/vim-monokai-refined"]
+	path = .vim/bundle/vim-monokai-refined
+	url = https://github.com/jaromero/vim-monokai-refined.git
