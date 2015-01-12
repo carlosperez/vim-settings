@@ -55,9 +55,10 @@ au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.md  setf markdown
 set fileformats+=dos
 
 " Cycle through buffers
-nnoremap <C-[> :bnext<CR>
-nnoremap <C-]> :bprevious<CR>
+" nnoremap <C-n> :bnext<CR>
+" nnoremap <C-b> :bprevious<CR>
 
 " Airline config
 set noshowmode "stop showing default mode indicator
+B
 let g:airline_powerline_fonts = 1 "fonts for powerline
