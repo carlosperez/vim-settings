@@ -61,3 +61,9 @@ set fileformats+=dos
 " Airline config
 set noshowmode "stop showing default mode indicator
 let g:airline_powerline_fonts = 1 "fonts for powerline
+
+" Set keystrokes for pane navigation
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
