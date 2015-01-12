@@ -60,5 +60,4 @@ set fileformats+=dos
 
 " Airline config
 set noshowmode "stop showing default mode indicator
-B
 let g:airline_powerline_fonts = 1 "fonts for powerline
