@@ -75,3 +75,6 @@ map <C-l> <C-W>l
 
 " CTRL-P buffer mode
 map <leader>p :CtrlPBuffer<CR>
+
+" Close all buffers but current
+map <C-S-w> :BufOnly<CR>

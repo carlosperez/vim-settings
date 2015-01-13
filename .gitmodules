@@ -46,3 +46,6 @@
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule ".vim/bundle/BufOnly.vim"]
+	path = .vim/bundle/BufOnly.vim
+	url = https://github.com/vim-scripts/BufOnly.vim.git
