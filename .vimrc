@@ -10,8 +10,10 @@ set laststatus=2
 set tabstop=2 shiftwidth=2 expandtab
 
 " Auto add ending brace and quotes
-imap ( ()<left>
-imap { {}<left>
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
 
 " Turn on CSS autocomplete
 nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
