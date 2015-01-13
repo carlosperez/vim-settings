@@ -57,8 +57,8 @@ au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.md  setf markdown
 set fileformats+=dos
 
 " Cycle through buffers
-nnoremap <leader>[ :bnext<CR>
-nnoremap <leader>] :bprevious<CR>
+nnoremap <leader>] :bnext<CR>
+nnoremap <leader>[ :bprevious<CR>
 
 " Airline config
 set noshowmode "stop showing default mode indicator
