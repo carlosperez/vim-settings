@@ -15,6 +15,9 @@ inoremap {<CR>  {<CR>}<Esc>O
 inoremap {{     {
 inoremap {}     {}
 
+" Allow switching buffers without having to save 
+set hidden
+
 " Turn on CSS autocomplete
 nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
