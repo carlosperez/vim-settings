@@ -80,4 +80,4 @@ map <C-l> <C-W>l
 map <leader>p :CtrlPBuffer<CR>
 
 " Close all buffers but current
-map <C-S-w> :BufOnly<CR>
+map <leader>x :BufOnly<CR>
