@@ -81,3 +81,11 @@ map <leader>p :CtrlPBuffer<CR>
 
 " Close all buffers but current
 map <leader>x :BufOnly<CR>
+
+" Search stuff
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+map <space> /
+map <silent> <leader>/ :noh<cr>
