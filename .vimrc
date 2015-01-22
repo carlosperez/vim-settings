@@ -88,3 +88,6 @@ set smartcase
 set hlsearch
 map <space> /
 map <silent> <leader><space> :noh<cr>
+
+" map esc to jj
+imap jj <Esc>
