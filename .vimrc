@@ -86,6 +86,5 @@ map <leader>x :BufOnly<CR>
 set ignorecase
 set smartcase
 set hlsearch
-set incsearch
 map <space> /
-map <silent> <leader>/ :noh<cr>
+map <silent> <leader><space> :noh<cr>
