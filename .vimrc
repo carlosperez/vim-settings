@@ -91,3 +91,14 @@ map <silent> <leader><space> :noh<cr>
 
 " map esc to jj
 imap jj <Esc>
+
+" Enable spellchecking for Markdown
+autocmd FileType markdown setlocal spell
+
+" Automatically wrap at 80 characters for Markdown
+autocmd BufRead,BufNewFile *.md setlocal textwidth=80
+
+" Automatically wrap at 72 characters and spell check
+" git commit messages
+autocmd FileType gitcommit setlocal textwidth=72
+autocmd FileType gitcommit setlocal spell
