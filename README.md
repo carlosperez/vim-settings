@@ -2,11 +2,18 @@
 
 My designer-inspired Vim config. It includes:
 
-- LESS and Nunjucks (really it's Jinja2) syntax highlighting
+- LESS, Stylus, Nunjucks and Handlebars syntax highlighting
 - Nerd-tree with a familiar `CTRL-K, CTRL-B` trigger for Sublime users!
 - A not horrific colorscheme that is similar enough to the Sublime Monokai theme
 - Pathogen for easy Vim plugin additions
 - A simple `.bash_profile` that highlights the current branch of a git repo
+- Turns on spellcheck and wordwrap (YES, WORDWRAP, DEAL WITH IT) on MarkDown files
+- Easy buffer switching with `\-[` and `\-]`
+- Close all buffers but current with `\-x`
+- Fast write buffer with `\-w`
+- Autocomplete for your CSS
+- `jj` mapped to `ESC` when INSERT mode to save your finger from having to reach all the way to the `ESC` key
+- Airline task bar which shows your current branch, your mode, filetype and more
 
 ### Installation instructions
 
