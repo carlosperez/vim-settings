@@ -4,6 +4,7 @@ My designer-inspired Vim config. It includes:
 
 - LESS, Stylus, Nunjucks and Handlebars syntax highlighting
 - Nerd-tree with a familiar `CTRL-K, CTRL-B` trigger for Sublime users!
+- `CTRL-P` to fuzzy find files a-la `CMD-T` in Sublime
 - A not horrific colorscheme that is similar enough to the Sublime Monokai theme
 - Pathogen for easy Vim plugin additions
 - A simple `.bash_profile` that highlights the current branch of a git repo
