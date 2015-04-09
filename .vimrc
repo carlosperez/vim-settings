@@ -96,7 +96,7 @@ imap jj <Esc>
 autocmd FileType markdown setlocal spell
 
 " Automatically wrap at 80 characters for Markdown
-autocmd BufRead,BufNewFile FileType markdown setlocal textwidth=80
+au BufRead,BufNewFile *.md setlocal textwidth=80
 
 " Automatically wrap at 72 characters and spell check
 " git commit messages
