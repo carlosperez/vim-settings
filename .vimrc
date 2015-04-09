@@ -102,3 +102,7 @@ au BufRead,BufNewFile *.md setlocal textwidth=80
 " git commit messages
 autocmd FileType gitcommit setlocal textwidth=72
 autocmd FileType gitcommit setlocal spell
+
+" Stop using swap files! 
+set noswapfile
+
