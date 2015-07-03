@@ -64,3 +64,9 @@
 [submodule ".vim/bundle/oceanic-next-vim"]
 	path = .vim/bundle/oceanic-next-vim
 	url = https://github.com/yosiat/oceanic-next-vim.git
+[submodule ".vim/bundle/github-vim"]
+	path = .vim/bundle/github-vim
+	url = https://github.com/solars/github-vim.git
+[submodule ".vim/bundle/vim-bbye"]
+	path = .vim/bundle/vim-bbye
+	url = https://github.com/moll/vim-bbye.git
