@@ -9,7 +9,7 @@ My designer-inspired Vim config. It includes:
 - Pathogen for easy Vim plugin additions
 - A simple `.bash_profile` that highlights the current branch of a git repo
 - Turns on spellcheck and wordwrap (YES, WORDWRAP, DEAL WITH IT) on MarkDown files
-- Easy buffer switching with `\-[` and `\-]`
+- Easy buffer switching with `Shift-h` and `Shift-l`
 - Close all buffers but current with `\-x`
 - Fast write buffer with `\-w`
 - Autocomplete for your CSS
