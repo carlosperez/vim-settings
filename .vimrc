@@ -122,7 +122,7 @@ let g:syntastic_check_on_wq = 0
 
 " Copy line on OS X
 " Mapped to ALT-C
-:nnoremap ç <Esc>:.w !pbcopy<CR><CR>
+:xnoremap ç :w !pbcopy<CR><CR>
 
 " Copy entire written file contents on OS X
 " Mapped to ALT-F
