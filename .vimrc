@@ -107,9 +107,9 @@ autocmd FileType gitcommit setlocal spell
 set noswapfile
 
 " Syntastic settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
@@ -119,4 +119,16 @@ let g:syntastic_check_on_wq = 0
 " Setup bbye for closing a single buffer without messing up 
 " the rest of the window layout
 :nnoremap <leader>q :Bdelete<CR>
+
+" Copy line on OS X
+" Mapped to ALT-C
+:nnoremap ç <Esc>:.w !pbcopy<CR><CR>
+
+" Copy entire written file contents on OS X
+" Mapped to ALT-F
+:nnoremap ƒ <Esc>:!pbcopy < %<CR><CR>
+
+" Paste friendlier on OS X
+" Mapped to ALT-V
+:nnoremap √ <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 
