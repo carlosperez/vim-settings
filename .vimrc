@@ -6,6 +6,9 @@ syntax enable
 filetype plugin indent on
 set laststatus=2
 
+" JSX highlighting in JS files
+let g:jsx_ext_required = 0
+
 " Change tab size
 set tabstop=2 shiftwidth=2 expandtab
 
