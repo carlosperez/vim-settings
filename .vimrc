@@ -11,6 +11,7 @@ let g:jsx_ext_required = 0
 
 " Change tab size
 set tabstop=2 shiftwidth=2 expandtab
+autocmd FileType scss setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab
 
 " Auto add ending brace and quotes
 inoremap {      {}<Left>
