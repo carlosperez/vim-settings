@@ -2,7 +2,7 @@
 
 My designer-inspired Vim config. It includes:
 
-- LESS, Stylus, Nunjucks and Handlebars syntax highlighting
+- Sass, LESS, Stylus, Nunjucks and Handlebars syntax highlighting
 - Nerd-tree with a familiar `CTRL-K, CTRL-B` trigger for Sublime users!
 - `CTRL-P` to fuzzy find files a-la `CMD-T` in Sublime
 - A not horrific colorscheme that is similar enough to the Sublime Monokai theme
@@ -15,6 +15,7 @@ My designer-inspired Vim config. It includes:
 - Autocomplete for your CSS
 - `jj` mapped to `ESC` when INSERT mode to save your finger from having to reach all the way to the `ESC` key
 - Airline task bar which shows your current branch, your mode, filetype and more
+- Now Neo Vim compatible (not fully tested actually so not really)
 
 ### Installation instructions
 
