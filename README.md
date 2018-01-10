@@ -24,8 +24,10 @@ My designer-inspired Vim config. It includes:
 3. Delete or backup or whatever your existing `.vim` folder and `.vimrc` file if exists
 4. Symlink `.vim` and `.vimrc` in your user root directory like this: `ln -s ~/vim-settings/.vim ~/.vim` and `ln -s ~/vim-settings/.vimrc ~/.vimrc` respectively. *Please note that this depends on what folder you cloned the repo to.*
 5. Repeat steps 3 and 4 for the `.bash_profile` file if you so wish to use that one.
-6. Airline is included which adds a handy info bar to Vim. It uses some fancy fonts to work well - [get them here](https://github.com/supermarin/powerline-fonts). My preference here is Monaco. Set your Terminal program to use that font for Airline to render properly.
-7. Want git branch auto-completion? Grab the [bash script ](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) here and save it as `.git-completion.bash` in your user root folder (`~/`) and the included `.bash_profile` will pick it up.
+6. Repeat steps 3 and 4 for the `.ackrc` file if you so wish to use Ack for file
+   searching.
+7. Airline is included which adds a handy info bar to Vim. It uses some fancy fonts to work well - [get them here](https://github.com/supermarin/powerline-fonts). My preference here is Monaco. Set your Terminal program to use that font for Airline to render properly.
+8. Want git branch auto-completion? Grab the [bash script ](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash) here and save it as `.git-completion.bash` in your user root folder (`~/`) and the included `.bash_profile` will pick it up.
 
 ### Adding Plugins
 With Pathogen its easy to add Vim plugins. Just go to the `.vim/bundle` folder and run `git submodule add <git-repo-address>` and voila.
