@@ -55,7 +55,10 @@ nmap <leader>w :w!<cr>
 " Mouse mode
 set ttyfast
 set mouse=a
-set ttymouse=xterm2
+
+if !has('nvim')
+  set ttymouse=xterm2
+endif
 
 " md is for Markdown
 au BufNewFile,BufRead *.markdown,*.mdown,*.mkd,*.mkdn,*.md  setf markdown
