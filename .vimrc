@@ -26,7 +26,7 @@ set hidden
 nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
 " Colors
-colorscheme Monokai-Refined
+colorscheme OceanicNext
 
 " Map show/hide of NerdTree 
 nnoremap <silent> <C-k><C-b> :NERDTreeToggle<CR>
