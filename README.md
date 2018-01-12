@@ -19,7 +19,8 @@ My designer-inspired Vim config. It includes:
 
 ### Installation instructions
 
-1. Clone this repo into a folder of your choosing, say `~/vim-settings`
+0. Clone this repo into a folder of your choosing, say `~/vim-settings`
+1. Install NeoVim `brew install neovim` to get NeoVim goodness. 
 2. Upon successful clone, run `git submodule update --init` to initialize all the plugins loaded as submodules
 3. Delete or backup or whatever your existing `.vim` folder and `.vimrc` file if exists
 4. Symlink `.vim` and `.vimrc` in your user root directory like this: `ln -s ~/vim-settings/.vim ~/.vim` and `ln -s ~/vim-settings/.vimrc ~/.vimrc` respectively. *Please note that this depends on what folder you cloned the repo to.*
