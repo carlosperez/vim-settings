@@ -21,6 +21,8 @@ My designer-inspired Vim config. It includes:
 
 - NeoVim `brew install neovim`
 - Ack `brew install ack`
+- Ag `brew install ag`
+- Fzf `brew install fzf`
 
 ### Installation instructions
 

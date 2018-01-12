@@ -83,9 +83,6 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-" CTRL-P buffer mode
-map <leader>p :CtrlPBuffer<CR>
-
 " Close all buffers but current
 map <leader>x :BufOnly<CR>
 
@@ -129,3 +126,9 @@ set noswapfile
 " Mapped to ALT-V
 :nnoremap √ <Esc>:set paste<CR>:r !pbpaste<CR>:set nopaste<CR>
 
+" Fzf for fuzzy file search
+set rtp+=/usr/local/opt/fzf
+nnoremap <silent> <C-p> :Files<CR>
+autocmd! FileType fzf
+autocmd  FileType fzf set laststatus=0 noshowmode noruler
+  \| autocmd BufLeave <buffer> set laststatus=2 showmode ruler

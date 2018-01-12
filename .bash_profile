@@ -11,3 +11,5 @@ export PS1="\w\[\033[0;36m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 alias vi="nvim"
 alias vim="nvim"
+
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
