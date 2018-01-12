@@ -5,7 +5,6 @@ My designer-inspired Vim config. It includes:
 - Sass, LESS, Stylus, Nunjucks and Handlebars syntax highlighting
 - Nerd-tree with a familiar `CTRL-K, CTRL-B` trigger for Sublime users!
 - `CTRL-P` to fuzzy find files a-la `CMD-T` in Sublime
-- A not horrific colorscheme that is similar enough to the Sublime Monokai theme
 - Pathogen for easy Vim plugin additions
 - A simple `.bash_profile` that highlights the current branch of a git repo
 - Turns on spellcheck and wordwrap (YES, WORDWRAP, DEAL WITH IT) on MarkDown files
@@ -15,12 +14,17 @@ My designer-inspired Vim config. It includes:
 - Autocomplete for your CSS
 - `jj` mapped to `ESC` when INSERT mode to save your finger from having to reach all the way to the `ESC` key
 - Airline task bar which shows your current branch, your mode, filetype and more
-- Now Neo Vim compatible (not fully tested actually so not really)
+- Now Neo Vim compatible (not fully tested actually so not really). Please note
+  that `vi`/`vim` are aliased to `nvim`
+
+### Requires
+
+- NeoVim `brew install neovim`
+- Ack `brew install ack`
 
 ### Installation instructions
 
-0. Clone this repo into a folder of your choosing, say `~/vim-settings`
-1. Install NeoVim `brew install neovim` to get NeoVim goodness. 
+1. Clone this repo into a folder of your choosing, say `~/vim-settings`
 2. Upon successful clone, run `git submodule update --init` to initialize all the plugins loaded as submodules
 3. Delete or backup or whatever your existing `.vim` folder and `.vimrc` file if exists
 4. Symlink `.vim` and `.vimrc` in your user root directory like this: `ln -s ~/vim-settings/.vim ~/.vim` and `ln -s ~/vim-settings/.vimrc ~/.vimrc` respectively. *Please note that this depends on what folder you cloned the repo to.*
@@ -39,4 +43,4 @@ Why do this? Because you get mad respect from devs and you drive other designers
 ### Help with Vim
 Nothing helps more than a [good cheat-sheet](http://vim.rtorr.com/).
 
-Nods to @CSilivestru and @brentlintner for the help. 
+Nods to [Chris Silivestru](https://github.com/CSilivestru) and [Brent Lintner](https://github.com/brentlintner) for the help. 
