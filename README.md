@@ -3,7 +3,7 @@
 My designer-inspired Vim config. It includes:
 
 - Sass, LESS, Stylus, Nunjucks and Handlebars syntax highlighting
-- Nerd-tree with a familiar `CTRL-K, CTRL-B` trigger for Sublime users!
+- Nerd-tree use `\-o` to open
 - `CTRL-P` to fuzzy find files a-la `CMD-T` in Sublime
 - Pathogen for easy Vim plugin additions
 - A simple `.bash_profile` that highlights the current branch of a git repo

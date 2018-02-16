@@ -11,7 +11,6 @@ let g:jsx_ext_required = 0
 
 " Change tab size
 set tabstop=2 shiftwidth=2 expandtab
-autocmd FileType scss setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab
 
 " Auto add ending brace and quotes
 inoremap {      {}<Left>
@@ -29,7 +28,7 @@ nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 colorscheme OceanicNext
 
 " Map show/hide of NerdTree 
-nnoremap <silent> <C-k><C-b> :NERDTreeToggle<CR>
+nnoremap <silent> <Leader>o :NERDTreeToggle<CR>
 
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -97,7 +96,7 @@ map <silent> <leader><space> :noh<cr>
 imap jj <Esc>
 
 " Enable spellchecking for Markdown
-autocmd FileType markdown setlocal spell
+" autocmd FileType markdown setlocal spell
 
 " Automatically wrap at 80 characters for Markdown
 au BufRead,BufNewFile *.md setlocal textwidth=80
