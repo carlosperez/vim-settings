@@ -28,7 +28,7 @@ nnoremap <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 colorscheme OceanicNext
 
 " Map show/hide of NerdTree 
-nnoremap <silent> <Leader>o :NERDTreeToggle<CR>
+nnoremap <silent> <C-k><C-n> :NERDTreeToggle<CR>
 
 " Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
